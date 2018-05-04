@@ -1,0 +1,70 @@
+## Basic Configuration
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+# title = "My New Hugo Site"
+# theme = "hugo-goa"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Yash Choukse"
+title = "Yash Choukse"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Yash Choukse"
+intro = "Engineer"
+description = "Incoming SDE Intern @AudibleInc <br> Now Grad Student @Northeastern-Seattle <br> Previously Undergrad @MIT-Manipal."
+quote = "\"Programs must be written for people to read, and only incidentally for machines to execute\" <br><br> - Abelson and Sussman"
+
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "yash1195"
+instagram = "yash1195"
+linkedin = "yash-choukse"
+# twitter = "<username>"
+facebook = "zeko1195"
+# google = "<username>"
+# stackoverflow = "<username>"
+email = "yash.choukse123@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Yash Choukse. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "https://medium.com/@yashchoukse"
+# [[menu.main]]
+#    name = "about"
+#    identifier = "about"
+#    weight = 200
+#    url = "/about/"
+
+# [[menu.main]]
+#    name = "coderag"
+#    identifier = "coderag"
+#    weight = 300
+#    url = "/coderag/"
